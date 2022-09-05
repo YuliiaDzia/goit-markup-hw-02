@@ -1,6 +1,6 @@
 :root {
-    --primary-text-color: #757575
-    --title-text-color: #212121
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
     --accent-color: #2196f3;
     --logo-color: #000000;
     --whight-color: #ffffff;
@@ -11,13 +11,15 @@
     --direction-backgroundcolor: #f5f5f5;
     --team-section-background: #f5f4fa;
 }
-ul,
-a {
+
+.list {
     list-style: none;
+}
+.link {
     text-decoration: none;
 }
-.page {
-    background-color: var(--whight-color);
+body {
+    background-color: var(--main-whight-color);
     color: var(--primary-text-color);
     font-family: "roboto", sans-serif;
 }
@@ -86,7 +88,7 @@ a {
 }
 
 .section-direction {
-    background-color: var(--direction-backgroundcolor);
+    background-color: var(--white-backgroundcolor);
 }
 .feature-list .title {
     color: var(--title-text-color);
